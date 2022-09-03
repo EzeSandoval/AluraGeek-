@@ -1,0 +1,10 @@
+.head__principal {
+    align-items: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 0;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}

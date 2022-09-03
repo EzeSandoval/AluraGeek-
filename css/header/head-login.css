@@ -1,0 +1,15 @@
+.head__login {
+    width: 180px;
+    border: 1px solid #2A7AE4;
+    background-color: #FFFFFF;
+    color: #2A7AE4;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.head__login:hover {
+    transform: scale(1.05,1.05);
+    transition: 0.5ms all;
+}
