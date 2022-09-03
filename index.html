@@ -4,19 +4,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--SECCION CSS PRINCIPAL-->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <!--SECCION HEADER-->
+    <link rel="stylesheet" href="./css/header/head-principal.css">
+    <link rel="stylesheet" href="./css/header/head-enlace.css">
+    <link rel="stylesheet" href="./css/header/head-secundario.css">
+    <link rel="stylesheet" href="./css/header/head-login.css">
+    <!--SECCION BANNER-->
+    <link rel="stylesheet" href="./css/banner/banner.css">
+    <link rel="stylesheet" href="./css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./css/banner/banner-nav.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap" rel="stylesheet">
+    <!--IMPORTACION DE ICONOS-->
+    <script defer src="https://kit.fontawesome.com/9d48c4c331.js"></script>
 </head>
 <body>
     <!--SECCION HEADER-->
     <header>
-        <section>
-            <a href="index.html"><img src="imagenes/Logo.png" alt="Logo AluraGeek"></a>
-            <input type="search" name="¿Que desea buscar?">
-            <button type="button" name="Login"></button>
+        <section class="head__principal">
+            <a class="head__enlace" href="index.html">
+                <img class="head__imagen" src="imagenes/Logo.png" alt="Logo AluraGeek">
+            </a>
+            <div class="head__secundario">
+                <input class="head__input" type="search" value="¿Que deseas buscar?">
+                <button class="head__search">
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                </button>
+            </div>
+            <a class="head__login" href="#">Login</a>
         </section>
     </header>
+
      <!--SECCION MAIN-->
-    <main></main>
+    <main>
+        <!--SECCION BANNER-->
+        <section class="banner">
+            <div class="banner__principal">
+                <h2 class="banner__titulo">Promocional</h2>
+                <p class="banner__subtitulo">Productos selecionados con 33% de descuento</p>
+                <nav class="banner__nav">
+                    <a class="banner__enlace" href="#">Ver consolas</a>
+                </nav>
+            </div>
+        </section>
+    </main>
      <!--SECCION FOOTER-->
-    <footer></footer>
+    <footer>
+
+    </footer>
 </body>
 </html>
