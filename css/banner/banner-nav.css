@@ -1,0 +1,19 @@
+.banner__enlace {
+    padding: 16px;
+    width: 129px;
+    height: 51px;
+    background: #2A7AE4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.banner__enlace:hover {
+    transform: scale(1.05,1.05);
+    transition: 0.5ms all;
+}

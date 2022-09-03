@@ -1,0 +1,15 @@
+.banner {
+    background-image: url(/imagenes/Banner.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 32px;
+    width: 100%;
+    height: 300px;
+}
+
+.banner__principal {
+    width: 80%;
+    margin: 0 auto;
+}

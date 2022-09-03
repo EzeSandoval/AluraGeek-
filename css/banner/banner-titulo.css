@@ -1,0 +1,16 @@
+.banner__titulo {
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 61px;
+color: #FFFFFF;
+}
+
+.banner__subtitulo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 12px 0;
+}
