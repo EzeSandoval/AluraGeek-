@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +12,32 @@
     <link rel="stylesheet" href="./css/header/head-principal.css">
     <link rel="stylesheet" href="./css/header/head-enlace.css">
     <link rel="stylesheet" href="./css/header/head-secundario.css">
-    <link rel="stylesheet" href="./css/header/head-login.css">
+    <link rel="stylesheet" href="./css/header/head-nav.css">
     <!--SECCION BANNER-->
     <link rel="stylesheet" href="./css/banner/banner.css">
     <link rel="stylesheet" href="./css/banner/banner-titulo.css">
     <link rel="stylesheet" href="./css/banner/banner-nav.css">
+    <!--SECCION CARDS-->
+    <link rel="stylesheet" href="./css/contenido-cards/contenido-cards.css">
+    <link rel="stylesheet" href="./css/contenido-cards/card-header.css">
+    <link rel="stylesheet" href="./css/contenido-cards/card-lista.css">
+    <link rel="stylesheet" href="./css/contenido-cards/card.css">
+    <!--SECCION INFORMACION-->
+    <link rel="stylesheet" href="./css/footer/info-contenido.css">
+    <link rel="stylesheet" href="./css/footer/info-nav.css">
+    <link rel="stylesheet" href="./css/footer/info-formulario.css">
+    <!--SECCION PIE PAGINA-->
+    <link rel="stylesheet" href="./css/pie-pagina/pie-pagina.css">
 
+    <!--SECCION FUENTES-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap" rel="stylesheet">
+
     <!--IMPORTACION DE ICONOS-->
     <script defer src="https://kit.fontawesome.com/9d48c4c331.js"></script>
 </head>
+
 <body>
     <!--SECCION HEADER-->
     <header>
@@ -36,11 +51,13 @@
                     <i class="fa-solid fa-magnifying-glass icon"></i>
                 </button>
             </div>
-            <a class="head__login" href="#">Login</a>
+            <nav class="head__nav">
+                <a class="head__login" href="#">Login</a>
+            </nav>
+
         </section>
     </header>
 
-     <!--SECCION MAIN-->
     <main>
         <!--SECCION BANNER-->
         <section class="banner">
@@ -52,10 +69,320 @@
                 </nav>
             </div>
         </section>
+        <!--SECCION CARDS STARWARS-->
+        <section class="contenido__cards">
+            <div class="cards">
+                <div class="card__header">
+                    <h3 class="card__header__titulo">Starwars</h3>
+                    <a class="card__header__enlace" href="#" target="_blank">Ver Todo ></a>
+                </div>
+                <div class="card__lista">
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/starwars/star-wars-001_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/starwars/star-wars-002_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/starwars/star-wars-003_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/starwars/star-wars-004_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/starwars/star-wars-005_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/starwars/star-wars-006_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SECCION CARDS CONSOLAS-->
+        <section class="contenido__cards">
+            <div class="cards">
+                <div class="card__header">
+                    <h3 class="card__header__titulo">Consolas</h3>
+                    <a class="card__header__enlace" href="#" target="_blank">Ver Todo ></a>
+                </div>
+                <div class="card__lista">
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/consolas/consolas-001_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/consolas/consolas-002_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/consolas/consolas-003_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/consolas/consolas-004_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/consolas/consolas-005_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/consolas/consolas-006_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SECCION CARDS DIVERSOS-->
+        <section class="contenido__cards">
+            <div class="cards">
+                <div class="card__header">
+                    <h3 class="card__header__titulo">Diversos</h3>
+                    <a class="card__header__enlace" href="#" target="_blank">Ver Todo ></a>
+                </div>
+                <div class="card__lista">
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/diversos/diversos-001_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/diversos/diversos-002_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/diversos/diversos-003_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/diversos/diversos-004_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/diversos/diversos-005_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__figure">
+                            <img src="./imagenes/diversos/diversos-006_1920.jpg" alt="imagen starwars"
+                                class="card__imagen">
+                        </figure>
+                        <div class="card__descripcion">
+                            <h5 class="card__titulo">Producto X</h5>
+                            <p class="card__valor">$ 60.00</p>
+                            <nav class="card__nav">
+                                <a class="card__enlace" href="#" target="_blank">Ver Producto</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-     <!--SECCION FOOTER-->
-    <footer>
+    <!--SECCION FOOTER-->
+    <footer class="informacion">
+        <div class="info__contenido">
+            <figure class="info__figure">
+                <img class="info__imagen" src="./imagenes/Logo.png" alt="logo AluraGeek">
+            </figure>
+            <nav class="info__nav">
+                <ul class="info__enlaces">
+                    <li class="info__enlace"><a href="#">Quienes somos</a></li>
+                    <li class="info__enlace"><a href="#">Politica de privacidad</a></li>
+                    <li class="info__enlace"><a href="#">Programa de fidelidad</a></li>
+                    <li class="info__enlace"><a href="#">Nuestras tiendas</a></li>
+                    <li class="info__enlace"><a href="#">Quiero ser franquiciado</a></li>
+                    <li class="info__enlace"><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </nav>
+            <form class="info__formulario">
+                <h3 class="info__form__titulo">Hable con nosotros</h3>
 
+                <label class="info__form__label" for="nombre">Nombre</label>
+                <input class="info__form__input" type="text" id="nombre" >
+
+                <label class="info__form__label" for="mensaje">Escribe tu mensaje</label>
+                <input class="info__form__input" id="mensaje" ></input>
+
+                <button class="info__form__boton">Enviar Mensaje</button>
+            </form>
+        </div>
     </footer>
+    <!--SECCION RODAPIE-->
+    <section class="pie">
+        <div class="pie__contenido">
+            <nav class="pie__iconos">
+                <a href="https://www.instagram.com/eze_sandovall/" target="_blank" class="icono instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/EzeSandoval" class="icono ggithub" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ezequiel-sandoval-a8aa64221/" class="icono linkedin"
+                    target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/Ezesandoo/" target="_blank" class="icono facebook"><i
+                        class="fa-brands fa-facebook"></i></a>
+            </nav>
+            <p class="pie__texto">Pagina Realizada Por Sandoval Ezequiel</p>
+            <p class="pie__texto">&copy Alura 2022</p>
+        </div>
+    </section>
 </body>
+
 </html>
