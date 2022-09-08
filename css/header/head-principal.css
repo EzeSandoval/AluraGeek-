@@ -4,7 +4,35 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 32px 0;
+    padding: 32px 0px;
     background-color: #FFFFFF;
     margin: 0 auto;
+}
+
+.head__contenido {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    gap: 32px;
+}
+
+@media only screen and (max-width:1200px) {
+    .head__principal {
+        width: 100%;
+        padding: 16px 32px;
+        height: 72px;
+    }
+
+    .head__contenido {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .head__principal {
+        width: 80%;
+        padding: 16px;
+        margin: 0;
+    }
 }
