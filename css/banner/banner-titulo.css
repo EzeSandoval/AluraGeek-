@@ -1,16 +1,29 @@
 .banner__titulo {
-font-style: normal;
-font-weight: 700;
-font-size: 52px;
-line-height: 61px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
 }
 
 .banner__subtitulo {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 50px;
     color: #FFFFFF;
-    padding: 12px 0;
+}
+
+
+@media only screen and (max-width:767px) {
+    .banner__titulo {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    
+    .banner__subtitulo {
+        font-size: 13px;
+        line-height: 30px;
+        font-weight: 600;
+    }
 }
