@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!--SECCION CSS PRINCIPAL-->
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
+    <!--SECCION HEADER-->
+    <link rel="stylesheet" href="../css/header/head-principal.css">
+    <link rel="stylesheet" href="../css/header/head-enlace.css">
+    <link rel="stylesheet" href="../css/header/head-busqueda.css">
+    <link rel="stylesheet" href="../css/header/head-nav.css">
+    <!--SECCION LOGIN-->
+    <link rel="stylesheet" href="../css/login/login.css">
+    <!--SECCION INFORMACION-->
+    <link rel="stylesheet" href="../css/footer/info-contenido.css">
+    <link rel="stylesheet" href="../css/footer/info-nav.css">
+    <link rel="stylesheet" href="../css/footer/info-formulario.css">
+    <!--SECCION PIE PAGINA-->
+    <link rel="stylesheet" href="../css/pie-pagina/pie-pagina.css">
+
+    <!--SECCION FUENTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--IMPORTACION DE ICONOS-->
+    <script defer src="https://kit.fontawesome.com/9d48c4c331.js"></script>
+</head>
+<body>
+    <!--SECCION HEADER-->
+    <header>
+        <section class="head__principal">
+            <div class="head__contenido">
+                <a class="head__enlace" href="../index.html">
+                    <img class="head__imagen" src="../imagenes/Logo.png" alt="Logo AluraGeek">
+                </a>
+                <div class="head__busqueda">
+                    <input class="head__input" type="search" value="¿Que deseas buscar?">
+                    <button class="head__search">
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!--SECCION LOGIN-->
+        <section class="login__contenedor">
+            <div class="login__caja">
+                <h2 class="login__titulo">Iniciar Sesión</h2>
+                <input class="login__input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required placeholder="Escriba su Email">
+                <input class="login__input" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required placeholder="Escriba su contraseña">  
+                <button class="login__boton">Entrar</button>
+
+            </div>
+        </section>
+    </main>
+
+    <!--SECCION FOOTER-->
+    <footer class="informacion">
+        <div class="info__contenido">
+            <div class="info__subcontenido">
+                <figure class="info__figure">
+                    <img class="info__imagen" src="../imagenes/Logo.png" alt="logo AluraGeek">
+                </figure>
+                <nav class="info__nav">
+                    <ul class="info__enlaces">
+                        <li class="info__enlace"><a href="#">Quienes somos</a></li>
+                        <li class="info__enlace"><a href="#">Politica de privacidad</a></li>
+                        <li class="info__enlace"><a href="#">Programa de fidelidad</a></li>
+                        <li class="info__enlace"><a href="#">Nuestras tiendas</a></li>
+                        <li class="info__enlace"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="info__enlace"><a href="#">Anuncie aqui</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <form class="info__formulario">
+                <h3 class="info__form__titulo">Hable con nosotros</h3>
+
+                <label class="info__form__label" for="nombre">Nombre</label>
+                <input class="info__form__input" type="text" id="nombre" >
+
+                <label class="info__form__label" for="mensaje">Escribe tu mensaje</label>
+                <input class="info__form__input" id="mensaje" ></input>
+
+                <button class="info__form__boton">Enviar Mensaje</button>
+            </form>
+        </div>
+    </footer>
+    <!--SECCION RODAPIE-->
+    <section class="pie">
+        <div class="pie__contenido">
+            <nav class="pie__iconos">
+                <a href="https://www.instagram.com/eze_sandovall/" target="_blank" class="icono instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/EzeSandoval" class="icono ggithub" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ezequiel-sandoval-a8aa64221/" class="icono linkedin"
+                    target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/Ezesandoo/" target="_blank" class="icono facebook"><i
+                        class="fa-brands fa-facebook"></i></a>
+            </nav>
+            <p class="pie__texto">Pagina Realizada Por Sandoval Ezequiel</p>
+            <p class="pie__texto">&copy Alura 2022</p>
+        </div>
+    </section>
+</body>
+</html>
