@@ -11,7 +11,7 @@
     <!--SECCION HEADER-->
     <link rel="stylesheet" href="./css/header/head-principal.css">
     <link rel="stylesheet" href="./css/header/head-enlace.css">
-    <link rel="stylesheet" href="./css/header/head-secundario.css">
+    <link rel="stylesheet" href="./css/header/head-busqueda.css">
     <link rel="stylesheet" href="./css/header/head-nav.css">
     <!--SECCION BANNER-->
     <link rel="stylesheet" href="./css/banner/banner.css">
@@ -42,14 +42,16 @@
     <!--SECCION HEADER-->
     <header>
         <section class="head__principal">
-            <a class="head__enlace" href="index.html">
-                <img class="head__imagen" src="imagenes/Logo.png" alt="Logo AluraGeek">
-            </a>
-            <div class="head__secundario">
-                <input class="head__input" type="search" value="¿Que deseas buscar?">
-                <button class="head__search">
-                    <i class="fa-solid fa-magnifying-glass icon"></i>
-                </button>
+            <div class="head__contenido">
+                <a class="head__enlace" href="index.html">
+                    <img class="head__imagen" src="imagenes/Logo.png" alt="Logo AluraGeek">
+                </a>
+                <div class="head__busqueda">
+                    <input class="head__input" type="search" value="¿Que deseas buscar?">
+                    <button class="head__search">
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+                    </button>
+                </div>
             </div>
             <nav class="head__nav">
                 <a class="head__login" href="#">Login</a>
@@ -340,19 +342,21 @@
     <!--SECCION FOOTER-->
     <footer class="informacion">
         <div class="info__contenido">
-            <figure class="info__figure">
-                <img class="info__imagen" src="./imagenes/Logo.png" alt="logo AluraGeek">
-            </figure>
-            <nav class="info__nav">
-                <ul class="info__enlaces">
-                    <li class="info__enlace"><a href="#">Quienes somos</a></li>
-                    <li class="info__enlace"><a href="#">Politica de privacidad</a></li>
-                    <li class="info__enlace"><a href="#">Programa de fidelidad</a></li>
-                    <li class="info__enlace"><a href="#">Nuestras tiendas</a></li>
-                    <li class="info__enlace"><a href="#">Quiero ser franquiciado</a></li>
-                    <li class="info__enlace"><a href="#">Anuncie aqui</a></li>
-                </ul>
-            </nav>
+            <div class="info__subcontenido">
+                <figure class="info__figure">
+                    <img class="info__imagen" src="./imagenes/Logo.png" alt="logo AluraGeek">
+                </figure>
+                <nav class="info__nav">
+                    <ul class="info__enlaces">
+                        <li class="info__enlace"><a href="#">Quienes somos</a></li>
+                        <li class="info__enlace"><a href="#">Politica de privacidad</a></li>
+                        <li class="info__enlace"><a href="#">Programa de fidelidad</a></li>
+                        <li class="info__enlace"><a href="#">Nuestras tiendas</a></li>
+                        <li class="info__enlace"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="info__enlace"><a href="#">Anuncie aqui</a></li>
+                    </ul>
+                </nav>
+            </div>
             <form class="info__formulario">
                 <h3 class="info__form__titulo">Hable con nosotros</h3>
 
