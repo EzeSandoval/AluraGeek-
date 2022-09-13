@@ -1,9 +1,10 @@
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Agregar producto</title>
     <!--SECCION CSS PRINCIPAL-->
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../style.css">
@@ -12,8 +13,8 @@
     <link rel="stylesheet" href="../css/header/head-enlace.css">
     <link rel="stylesheet" href="../css/header/head-busqueda.css">
     <link rel="stylesheet" href="../css/header/head-nav.css">
-    <!--SECCION LOGIN-->
-    <link rel="stylesheet" href="../css/login/login.css">
+    <!--SECCION AGREGAR PRODUCTOS-->
+    <link rel="stylesheet" href="../css/agregar-productos/agregar-productos.css">
     <!--SECCION INFORMACION-->
     <link rel="stylesheet" href="../css/footer/info-contenido.css">
     <link rel="stylesheet" href="../css/footer/info-nav.css">
@@ -29,6 +30,7 @@
     <!--IMPORTACION DE ICONOS-->
     <script defer src="https://kit.fontawesome.com/9d48c4c331.js"></script>
 </head>
+
 <body>
     <!--SECCION HEADER-->
     <header>
@@ -48,14 +50,31 @@
     </header>
 
     <main>
-        <!--SECCION LOGIN-->
-        <section class="login__contenedor">
-            <div class="login__caja">
-                <h2 class="login__titulo">Iniciar Sesión</h2>
-                <input class="login__input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required placeholder="Escriba su Email">
-                <input class="login__input" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required placeholder="Escriba su contraseña">  
-                <button class="login__boton">Entrar</button>
-
+        <!--SECCION AGREGAR PRODUCTOS-->
+        <section class="producto__contenido">
+            <div class="producto__caja">
+                <h2 class="producto__titulo">Agregar nuevo producto</h2>
+                <div class="caja__formulario">
+                    <form class="producto__formulario">
+                        <label class="formulario__label" for="url">Url de la imagen</label>
+                        <input class="formulario__input" type="text" class="" id="url" placeholder="ej: http://www.imagen.com/imagen.png">
+    
+                        <label class="formulario__label" for="categoria">Categoria</label>
+                        <input class="formulario__input" type="text" class="" id="categoria" placeholder="ej: consolas">
+    
+                        <label class="formulario__label" for="nombre-producto">Nombre del producto</label>
+                        <input class="formulario__input" type="text" class="" id="nombre-producto" placeholder="ej: Nintendo 68">
+    
+                        <label class="formulario__label" for="precio">Precio del producto</label>
+                        <input class="formulario__input" type="number" class="" id="precio" placeholder="ej: $60.00"> 
+    
+                        <label class="formulario__label" for="descripcion">Descripcion</label>
+                        <input class="formulario__input" type="text" class="" id="descripcion" placeholder="escriba aqui la descripcion del producto">
+                    </form>
+                </div>
+                <div class="caja__boton">
+                    <button class="producto__boton">Agregar producto</button>
+                </div>
             </div>
         </section>
     </main>
@@ -82,12 +101,12 @@
                 <h3 class="info__form__titulo">Hable con nosotros</h3>
 
                 <label class="info__form__label" for="nombre">Nombre</label>
-                <input class="info__form__input" type="text" id="nombre" >
+                <input class="info__form__input" type="text" id="nombre">
 
                 <label class="info__form__label" for="mensaje">Escribe tu mensaje</label>
-                <input class="info__form__input" id="mensaje" ></input>
+                <input class="info__form__input" id="mensaje"></input>
 
-                <button class="info__form__boton">Enviar Mensaje</button>
+                <button class="info__form__boton">Enviar mensaje</button>
             </form>
         </div>
     </footer>
@@ -109,4 +128,5 @@
         </div>
     </section>
 </body>
+
 </html>
