@@ -1,5 +1,5 @@
 .banner {
-    background-image: url(/imagenes/Banner.jpg);
+    background-image: url('/imagenes/Banner.jpg');
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
